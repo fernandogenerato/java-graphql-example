@@ -2,8 +2,7 @@
 
 # Spring GraphQL Example
 
-This is a demo project illustrating how to use Spring with GraphQL to create a book and author query API.
-
+This is a demo project that illustrates how to use Spring with GraphQL to create a book and author query API using the guide available in spring https://spring.io/guides/gs/graphql-server
 ## Prerequisites
 
 Before you begin, ensure you have the following requirements:
@@ -55,6 +54,10 @@ query {
   }
 }
 ```
+## Included Unit Tests
+This project includes unit tests to ensure code coverage and maintain quality. You can find the unit tests in the src/test directory. Run the tests using your preferred IDE or using Maven:
+
+![image](https://github.com/fernandogenerato/java-graphql-example/assets/22321412/a2f76e89-e656-4669-b59a-5971a222a093)
 
 ## Accessing GraphiQL Client
 
@@ -63,6 +66,9 @@ To facilitate testing and exploration of the GraphQL API, you can access the Gra
 GraphiQL provides an interactive graphical interface for building and sending GraphQL queries.
 
 See more in Official docs: https://github.com/graphql/graphiql
+
+![image](https://github.com/fernandogenerato/java-graphql-example/assets/22321412/810b2390-a312-4881-b7aa-6f7abe3879fd)
+
 
 ## Project Structure
 
